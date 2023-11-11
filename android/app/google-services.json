@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "104911848562",
+    "firebase_url": "https://olxprojeto-afedb-default-rtdb.firebaseio.com",
+    "project_id": "olxprojeto-afedb",
+    "storage_bucket": "olxprojeto-afedb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:104911848562:android:d4fea766683aa6530f6eeb",
+        "android_client_info": {
+          "package_name": "com.example.olxprojeto"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATAhI3y7_rY01z0dOTXz0GB8UnwzESmL0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
