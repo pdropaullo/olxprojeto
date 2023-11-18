@@ -3,13 +3,15 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:olxprojeto/pages/AnuncioPage.dart';
 import 'package:olxprojeto/pages/CategoriesList.dart';
+import 'package:olxprojeto/pages/CreateAD.dart';
+import 'package:olxprojeto/pages/HomePage.dart';
 import 'package:olxprojeto/pages/LoginPage.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
   FirebaseFirestore db = await FirebaseFirestore.instance;
-  db.collection('Teste').add({'Nome': 'Teste'});
+  // db.collection('Teste').add({'Nome': 'Teste'});
   runApp(
     MaterialApp(
       theme: ThemeData(
@@ -27,7 +29,7 @@ void main() async {
         }),
       ),
       debugShowCheckedModeBanner: false,
-      home: CategoriesList(),
+      home: HomePage(),
     ),
   );
 }

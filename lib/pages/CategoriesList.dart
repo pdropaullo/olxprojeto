@@ -41,3 +41,5 @@ getAd() async {
   var categorias = await db.collection('Categorias').get();
   return categorias.docs;
 }
+
+
